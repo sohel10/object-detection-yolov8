@@ -40,7 +40,7 @@ Annotated frames/video → assets/outputs/vis/
 Cropped license plates → assets/outputs/crops/
 
 Detection + OCR CSV → assets/outputs/preds.csv
-#Roadmap
+## Roadmap
 
  Image support
 
@@ -51,10 +51,10 @@ Detection + OCR CSV → assets/outputs/preds.csv
  Live webcam support (--source 0)
 
  Streamlit deployment for interactive UI
-#License
+## License
 
 For educational and research purposes
 
-Acknowledge Ultralytics YOLOv8
+## Acknowledge Ultralytics YOLOv8
  and EasyOCR 
  
