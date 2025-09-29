@@ -9,7 +9,7 @@ model = YOLO("yolov8s.pt")
 # Train the model
 model.train(
     data="data.yaml",
-    epochs=50,
+    epochs=30,
     imgsz=640,
     device="cpu"   # <--- add this
 )

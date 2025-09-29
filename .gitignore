@@ -1,0 +1,28 @@
+# Ignore large video files
+*.mp4
+*.avi
+*.mov
+
+# Ignore YOLO model weights
+*.pt
+
+# Ignore outputs
+assets/outputs/vis/
+assets/outputs/crops/
+assets/outputs/*.mp4
+
+# Ignore runs, datasets, checkpoints
+runs/
+datasets/
+train/
+test/
+valid/
+
+# Ignore cache & temp
+__pycache__/
+*.log
+*.tmp
+*.DS_Store
+
+# Ignore BFG reports
+..bfg-report/

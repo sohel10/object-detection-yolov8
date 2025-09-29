@@ -1,0 +1,19 @@
+🔹 What you just did
+
+Ran BFG tool
+You told BFG:
+
+--delete-files "*.pt" → delete all .pt files from history.
+
+--delete-folders "train", "valid", "test" → delete those folders from history.
+
+✅ That cleaned your Git history, so old large files are removed.
+
+Ran cleanup (git gc)
+You compacted the repo so it no longer stores deleted big files.
+
+Force pushed (git push --force origin main)
+That rewrote your repo history on GitHub with the smaller, cleaned version.
+
+
+#### C:\tools: donload: bfg-1.15.0
