@@ -1,0 +1,29 @@
+# Core deep learning (GPU build for PyTorch)
+# Pick ONE depending on your CUDA version:
+# torch==2.4.0+cu121  (CUDA 12.1, recommended for modern GPUs)
+# torch==2.4.0+cu118  (CUDA 11.8, fallback if GPU/driver is older)
+torch
+torchvision
+torchaudio
+
+# YOLOv8
+ultralytics==8.3.0
+
+# OCR
+easyocr==1.7.1
+
+# Image/video processing
+opencv-python==4.10.0.84
+Pillow==10.4.0
+matplotlib==3.9.2
+numpy==1.26.4
+
+# Dataset handling (if you want to use Roboflow API)
+roboflow==1.1.40
+
+# Web app (optional, for demo)
+streamlit==1.36.0
+
+# Extra utilities
+pandas==2.2.2
+pydantic==2.8.2
